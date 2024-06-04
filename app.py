@@ -28,7 +28,7 @@ def handle_crop(data):
     cropped_image = image.crop((startx, starty, startx + width, starty + height))
     cropped_image = cropped_image.convert('RGB')
 
-    cropped_image.save("cropped_image.jpg")
+    cropped_image.save("cropped_image22.jpg")
 
 
     # print("Crop data received:", imgsrc)
